@@ -1,0 +1,63 @@
+.c-text__title--index {
+  color: var(--white);
+  font-family: var(--font-ibm);
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.is-visible--text-index {
+  display: none;
+}
+
+.c-text__phrase,
+.c-text__phrase--white,
+.c-text__phrase--footer,
+.c-text__phrase--cadastre-login {
+  color: var(--blue);
+  line-height: 20px;
+}
+
+.c-text__phrase--cadastre-login {
+  line-height: 21px;
+}
+
+.c-text__phrase__span--cadastre {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.c-text__phrase--white,
+.c-text__phrase--footer {
+  color: var(--white);
+  line-height: 24px;
+}
+
+@media screen and (min-width: 37.5em) {
+  .c-text__title--index {
+    font-family: inherit;
+    font-size: 1.75rem;
+  }
+
+  .c-text__phrase,
+  .c-text__phrase--white,
+  .c-text__phrase--cadastre-login {
+    font-size: 1.125rem;
+    line-height: 26px;
+  }
+
+  .c-text__phrase__span--cadastre {
+    margin-bottom: 0.25rem;
+  }
+
+  .c-text__phrase--white {
+    display: none;
+  }
+
+  .is-visible--text-index {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+}

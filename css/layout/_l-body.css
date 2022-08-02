@@ -1,0 +1,63 @@
+.l-body {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font);
+  font-size: 1rem;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+.l-body--index {
+  background-color: var(--blue);
+  background-image: url(../../assets/img/left-top-form.svg),
+    url(../../assets/img/right-center-form.svg), url(../../assets/img/animal-bottom-form.svg);
+  background-position: left top, right center, center bottom 5rem;
+  background-repeat: no-repeat;
+}
+
+.l-body--cadastre-login {
+  background-image: url(../../assets/img/paws-right-top-form.svg),
+    url(../../assets/img/left-top-form.svg), url(../../assets/img/left-center-form.svg);
+  background-position: right top, left top, left 70%;
+  background-repeat: no-repeat;
+}
+
+.l-body--message-profile,
+.l-body--basic {
+  background-image: url(../../assets/img/left-top-form.svg);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 37.5em) {
+  .l-body--index {
+    background-size: 35.07em, 8.4em, 21.15em;
+  }
+
+  .l-body--cadastre-login {
+    background-image: url(../../assets/img/paws-right-top-form.svg),
+      url(../../assets/img/left-top-form.svg), url(../../assets/img/right-center-form.svg);
+    background-position: right top, left top, right center;
+    background-size: 14rem, 35.07em, 8.4em;
+  }
+
+  .l-body--basic {
+    background-image: url(../../assets/img/left-top-form.svg);
+    background-position: left top;
+    background-size: 35.07em;
+  }
+
+  .l-body--message-profile {
+    background-image: url(../../assets/img/left-top-form.svg),
+      url(../../assets/img/right-center-form.svg);
+    background-position: left top, right center;
+    background-size: 35.07em, 8.4em;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .l-body--index {
+    background-size: 35.07em, 8.4em, 21.625em;
+  }
+}

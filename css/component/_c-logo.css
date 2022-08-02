@@ -1,0 +1,30 @@
+.c-logo--nav {
+  height: 30.86px;
+  width: 128px;
+}
+
+.c-logo {
+  height: 34.36px;
+  width: 142.54px;
+}
+
+.c-logo--index {
+  height: 46px;
+  width: 186.67px;
+}
+
+@media screen and (min-width: 37.5em) {
+  .c-logo,
+  .c-logo--index {
+    height: 62px;
+    width: 251.59px;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .c-logo,
+  .c-logo--index {
+    width: 259.71px;
+    height: 64px;
+  }
+}

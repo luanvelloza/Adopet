@@ -1,0 +1,49 @@
+.c-bnt,
+.c-bnt--anchor {
+  background-color: var(--coral);
+  border-radius: 6px;
+  border-style: none;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 600;
+  height: 40px;
+  line-height: 24px;
+  text-align: center;
+  text-align: center;
+  text-decoration: none;
+  transition: 250ms;
+  width: 148px;
+}
+
+.c-bnt:hover,
+.c-bnt--anchor:hover {
+  opacity: 85%;
+}
+
+.c-bnt--anchor {
+  width: 70%;
+  box-shadow: 1px 1px var(--cinza);
+  display: block;
+  height: initial;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+}
+
+@media screen and (min-width: 37.5em) {
+  .c-bnt,
+  .c-bnt--anchor {
+    font-size: 1.125rem;
+    width: 164px;
+  }
+
+  .c-bnt--anchor {
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .c-bnt {
+    width: 174px;
+  }
+}

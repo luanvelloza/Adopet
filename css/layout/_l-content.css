@@ -1,0 +1,224 @@
+/* Index-------------------------------------------------------- */
+
+.l-content--index .c-text__title--index {
+  margin-top: 1.5rem;
+}
+
+.l-content--index .c-text__phrase--white {
+  margin: 1rem 0 1.5rem;
+}
+
+.l-content--index .c-bnt--anchor:last-child {
+  margin-top: 1rem;
+}
+
+/* cadastre-------------------------------------------------------- */
+
+.l-content--cadastre .c-text__phrase--cadastre-login {
+  margin: 1.5rem 8%;
+}
+
+.l-content--cadastre .c-form__input,
+.l-content--cadastre .c-form__input--password {
+  margin-bottom: 1.25rem;
+}
+
+.l-content--cadastre .c-bnt {
+  margin-top: 0.25rem;
+}
+
+/* login-------------------------------------------------------- */
+
+.l-content--login .c-text__phrase--cadastre-login {
+  margin: 3.5rem 0 2.625rem;
+}
+
+.l-content--login .c-form__input {
+  margin-bottom: 1.5rem;
+}
+
+.l-content--login .c-form__text {
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* Home-------------------------------------------------------- */
+
+.l-content--home .c-text__phrase {
+  margin: 0 4rem 2rem;
+}
+
+/* Message-------------------------------------------------------- */
+
+.l-content--message .c-text__phrase {
+  margin: 0 4rem 1.5rem;
+}
+
+.l-content--message .c-form--message-profile {
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 312px;
+}
+
+.l-content--message .c-form__input {
+  margin-bottom: 1rem;
+}
+
+.l-content--message .c-bnt {
+  margin-top: 2rem;
+}
+
+/* profile-------------------------------------------------------- */
+.l-content--profile .c-form--message-profile {
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 312px;
+}
+
+.l-content--profile .c-text__phrase {
+  margin: 0 3.3rem 1.5rem;
+}
+
+.l-content--profile .c-form__title {
+  margin-bottom: 1rem;
+}
+
+.l-content--profile .c-form__image--profile {
+  margin-top: 0.5rem;
+}
+.l-content--profile .c-form__bnt {
+  margin: 0.25rem auto 0.3125rem;
+}
+
+.l-content--profile .c-form__input {
+  margin-bottom: 1rem;
+}
+
+.l-content--profile .c-bnt {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 37.5em) {
+  /* Index-------------------------------------------------------- */
+
+  .l-content--index .c-text__title--index {
+    margin-top: 2.5rem;
+  }
+
+  .l-content--index .c-text__phrase--white {
+    margin: 1.5rem 0 2.375rem;
+  }
+
+  /* cadastre-------------------------------------------------------- */
+
+  .l-content--cadastre .c-text__phrase--cadastre-login {
+    margin: 2.5rem 12%;
+  }
+
+  .l-content--cadastre .c-form__input,
+  .l-content--cadastre .c-form__input--password {
+    margin-bottom: 1.5rem;
+  }
+
+  .l-content--cadastre .c-bnt {
+    margin-top: 1rem;
+  }
+
+  /* login-------------------------------------------------------- */
+
+  .l-content--login .c-text__phrase--cadastre-login {
+    margin: 2.5rem;
+  }
+
+  .l-content--login .c-form__text {
+    margin: 0.5rem 0 1.875rem;
+  }
+
+  /* Home-------------------------------------------------------- */
+
+  .l-content--home .c-text__phrase {
+    margin: 0 0 2rem;
+  }
+
+  /* Message-------------------------------------------------------- */
+
+  .l-content--message .c-text__phrase {
+    margin: 0 7rem 2.5rem;
+  }
+
+  .l-content--message .c-form--message-profile {
+    margin-bottom: 5rem;
+    width: 524px;
+  }
+
+  .l-content--message .c-bnt {
+    margin-top: 2rem;
+  }
+
+  /* profile-------------------------------------------------------- */
+  .l-content--profile .c-form--message-profile {
+    margin-bottom: 2rem;
+    width: 524px;
+  }
+
+  .l-content--profile .c-text__phrase {
+    margin: 0 8rem 1.625rem;
+  }
+
+  .l-content--profile .c-form__bnt {
+    margin: 0.25rem auto 1rem;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  /* Index-------------------------------------------------------- */
+  .l-content--index .c-text__phrase--white {
+    margin: 1.5rem 0 2rem;
+  }
+
+  /* cadastre-------------------------------------------------------- */
+
+  .l-content--cadastre .c-text__phrase--cadastre-login {
+    margin: 2.5rem 33% 3rem;
+  }
+
+  .l-content--cadastre .c-bnt {
+    margin-top: 0.5rem;
+  }
+
+  /* login-------------------------------------------------------- */
+
+  .l-content--login .c-text__phrase--cadastre-login {
+    margin: 4rem 0 4.25rem;
+  }
+
+  /* Home-------------------------------------------------------- */
+
+  .l-content--home .c-text__phrase {
+    margin: 2.5rem;
+  }
+
+  /* Message-------------------------------------------------------- */
+
+  .l-content--message .c-text__phrase {
+    margin: 2rem 33%;
+  }
+
+  .l-content--message .c-form--message-profile {
+    margin-bottom: 0;
+    padding: 1.6875rem 1.875rem 2rem;
+    width: 552px;
+  }
+
+  /* profile-------------------------------------------------------- */
+  .l-content--profile .c-form--message-profile {
+    margin-bottom: 0;
+    padding: 1.6875rem 1.875rem 2rem;
+    width: 552px;
+  }
+
+  .l-content--profile .c-text__phrase {
+    margin: 2rem 31%;
+  }
+}

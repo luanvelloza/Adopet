@@ -1,0 +1,189 @@
+.c-form,
+.c-form--message-profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-form__label,
+.c-form__label--password {
+  color: var(--grey);
+  line-height: 24px;
+}
+
+.c-form__input {
+  display: block;
+}
+
+.c-form__input,
+.c-form__input--password {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  background-color: var(--light-grey-background);
+  border-radius: 6px;
+  border-style: none;
+  box-shadow: 1px 1px var(--light-grey);
+  color: var(--grey);
+  height: 40px;
+  text-align: center;
+  width: 312px;
+}
+
+.c-form__div {
+  position: relative;
+  width: 312px;
+}
+
+.c-form__input--password {
+  position: relative;
+}
+
+.c-form__eye {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  right: 7px;
+  top: 14px;
+  z-index: 10;
+}
+
+.c-form__text {
+  color: var(--coral);
+  cursor: pointer;
+  font-size: 0.75rem;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+/* c-form--message-profile */
+
+.c-form--message-profile {
+  background-color: var(--light-grey-background);
+  border-radius: 10px;
+}
+
+.c-form--message-profile .c-form__label {
+  color: var(--blue);
+  font-weight: 600;
+  text-align: start;
+  width: 280px;
+}
+
+.c-form--message-profile .c-form__input {
+  background-color: var(--white);
+  box-sizing: border-box;
+  color: var(--grey);
+  font-size: 0.875rem;
+  height: 48px;
+  margin-top: 0.5rem;
+  padding: 0 0 0 1rem;
+  text-align: start;
+  width: 280px;
+}
+
+.c-form__textarea {
+  background-color: var(--white);
+  border-radius: 6px;
+  border-style: none;
+  box-shadow: 1px 1px var(--light-grey);
+  box-sizing: border-box;
+  color: var(--grey);
+  display: block;
+  font-family: inherit;
+  font-size: 0.875rem;
+  height: 172px;
+  margin-top: 1rem;
+  padding: 1rem;
+  resize: none;
+  width: 280px;
+}
+
+/* c-form profile----------------------------------------------------------- */
+
+.c-form__title {
+  color: var(--grey);
+  font-size: 1.3125rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.c-form__image--profile {
+  display: block;
+  height: 80px;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.c-form__bnt {
+  background: none;
+  border: none;
+  color: var(--coral);
+  cursor: pointer;
+  display: block;
+  font-size: 0.75rem;
+  line-height: 24px;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 37.5em) {
+  .c-form__label,
+  .c-form__label--password {
+    font-size: 1.125rem;
+  }
+
+  .c-form__input,
+  .c-form__input--password {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    width: 344px;
+  }
+
+  .c-form__div {
+    width: 344px;
+  }
+
+  .c-form__eye {
+    right: 10px;
+    top: 20px;
+  }
+
+  .c-form__text {
+    font-size: 0.84375rem;
+  }
+
+  /* c-form profile----------------------------------------------------------- */
+
+  .c-form--message-profile .c-form__label {
+    font-size: 1rem;
+    width: 492px;
+  }
+
+  .c-form--message-profile .c-form__input {
+    width: 492px;
+  }
+
+  .c-form__textarea {
+    height: 172px;
+    margin-top: 0.5rem;
+    width: 492px;
+  }
+
+  .c-form__textarea--profile {
+    height: 104px;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .c-form__input,
+  .c-form__input--password {
+    font-size: 1rem;
+    width: 552px;
+  }
+  .c-form__div,
+  .c-form__input--password {
+    width: 362px;
+  }
+}

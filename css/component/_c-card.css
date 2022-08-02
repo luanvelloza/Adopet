@@ -1,0 +1,65 @@
+.c-card {
+  background-color: var(--light-grey-background);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  width: 360px;
+}
+
+.c-card__image {
+  height: 148px;
+  width: 148px;
+}
+
+.c-card__info {
+  text-align: left;
+}
+
+.c-card__name {
+  color: var(--blue);
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.c-card__list {
+  color: var(--grey);
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.c-card__text {
+  color: var(--grey);
+  font-size: 0.75rem;
+  line-height: 16px;
+}
+
+.c-card__anchor {
+  color: var(--grey);
+  font-size: 0.625rem;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.c-card__anchor::before {
+  background-image: url(../../assets/img/icon-message-card.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  content: "";
+  left: 0;
+  margin-right: 8px;
+  padding: 1px 9px;
+  position: relative;
+  top: 0;
+}
+
+@media screen and (min-width: 37.5em) {
+  .c-card {
+    width: 344px;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .c-card {
+    width: 362px;
+  }
+}

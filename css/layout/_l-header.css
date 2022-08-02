@@ -1,0 +1,12 @@
+.l-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+@media screen and (min-width: 56.25em) {
+  .l-header {
+    padding: 3rem 10rem;
+  }
+}

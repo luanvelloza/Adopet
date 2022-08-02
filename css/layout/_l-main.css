@@ -1,0 +1,29 @@
+.l-main {
+  flex: 1;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.l-main--all-padding {
+  padding: 3rem 3rem 75%;
+}
+
+@media screen and (min-width: 37.5em) {
+  .l-main {
+    padding: 7rem 0 20%;
+  }
+
+  .l-main--all-padding {
+    padding: 7rem 26% 51%;
+  }
+}
+
+@media screen and (min-width: 56.25em) {
+  .l-main {
+    padding: 0 0 6rem;
+  }
+
+  .l-main--all-padding {
+    padding: 0 34% 25rem;
+  }
+}

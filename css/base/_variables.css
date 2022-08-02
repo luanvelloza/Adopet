@@ -1,0 +1,15 @@
+:root {
+  /* colors */
+  --blue: #3772ff;
+  --coral: #fc7071;
+  --cream: #fcf0e3;
+  --green: #36d6ad;
+  --grey: #737380;
+  --light-grey-background: #f6f6f6;
+  --light-grey: #bcbcbc;
+  --white: #ffffff;
+
+  /* Fonts */
+  --font-ibm: "IBM Plex Sans", sans-serif;
+  --main-font: "Poppins", sans-serif;
+}

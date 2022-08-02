@@ -1,0 +1,17 @@
+.c-main-nav__list {
+  align-items: center;
+  display: flex;
+}
+
+.c-main-nav__item {
+  margin-right: 3.75rem;
+}
+.c-main-nav__item:first-child {
+  display: none;
+}
+
+@media screen and (min-width: 37.5em) {
+  .c-main-nav__item:first-child {
+    display: initial;
+  }
+}
