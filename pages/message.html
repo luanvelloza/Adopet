@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopet - Mensagem</title>
+    <link rel="icon" type="image/svg" href="../assets/img/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body class="l-body l-body--message-profile">
+    <header class="l-header">
+      <nav class="c-main-nav">
+        <ul class="c-main-nav__list">
+          <li class="c-main-nav__item">
+            <a href="../index.html">
+              <img src="../assets/img/white-logo.svg" alt="Adopet" class="c-logo--nav" />
+            </a>
+          </li>
+
+          <li class="c-main-nav__item">
+            <a href="../index.html"><img src="../assets/img/icon-home.svg" alt="icone casa" /></a>
+          </li>
+
+          <li class="c-main-nav__item">
+            <a href="message.html">
+              <img src="../assets/img/icon-message.svg" alt="icone mensagem"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="c-icon--profile" href="profile.html">
+        <img src="../assets/img/icon-profile.svg" alt="Foto do perfil" />
+      </a>
+    </header>
+
+    <main class="l-main">
+      <section class="l-content--message">
+        <p class="c-text__phrase">
+          Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:
+        </p>
+
+        <form class="c-form--message-profile">
+          <label class="c-form__label" for="name"
+            >Nome<input
+              id="name"
+              class="c-form__input"
+              placeholder="Insira seu nome completo"
+              type="text"
+          /></label>
+
+          <label class="c-form__label" for="number"
+            >Telefone<input
+              id="number"
+              class="c-form__input"
+              placeholder="Insira seu telefone e/ou whatsapp"
+              type="tel"
+            />
+          </label>
+
+          <label class="c-form__label" for="petName"
+            >Nome do animal<input
+              id="petName"
+              class="c-form__input"
+              placeholder="Por qual animal você se interessou?"
+              type="tel"
+            />
+          </label>
+
+          <label class="c-form__label" for="message"
+            >Mensagem<textarea
+              id="message"
+              class="c-form__textarea"
+              placeholder="Escreva sua mensagem."
+            ></textarea>
+          </label>
+
+          <button class="c-bnt">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="l-footer">
+      <p class="c-text__phrase--footer">2022 - Desenvolvido por Alura.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopet - Login</title>
+    <link rel="icon" type="image/svg" href="../assets/img/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body class="l-body l-body--cadastre-login">
+    <header class="l-header">
+      <nav class="c-main-nav">
+        <ul class="c-main-nav__list">
+          <li class="c-main-nav__item">
+            <a href="../index.html">
+              <img src="../assets/img/white-logo.svg" alt="Adopet" class="c-logo--nav" />
+            </a>
+          </li>
+
+          <li class="c-main-nav__item">
+            <a href="../index.html"><img src="../assets/img/icon-home.svg" alt="icone casa" /></a>
+          </li>
+
+          <li class="c-main-nav__item">
+            <a href="message.html">
+              <img src="../assets/img/icon-message.svg" alt="icone mensagem"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="l-content--login">
+        <img class="c-logo" src="../assets/img/blue-logo.svg" alt="Logo Adopet" />
+        <p class="c-text__phrase--cadastre-login">Já tem conta? Faça seu login:</p>
+
+        <form class="c-form">
+          <label class="c-form__label" for="name"
+            >Email<input
+              id="name"
+              class="c-form__input"
+              type="email"
+              placeholder="Insira seu email"
+            />
+          </label>
+
+          <label class="c-form__label" for="password">Senha</label>
+          <div class="c-form__div">
+            <input
+              class="c-form__input--password"
+              id="password"
+              type="password"
+              placeholder="Insira sua senha"
+            />
+            <button class="c-form__eye">
+              <img
+                class="c-icon--eye"
+                src="../assets/img/closed-eye.svg"
+                alt="Visualizador de Senha"
+              />
+            </button>
+          </div>
+
+          <a class="c-form__text">Esqueci minha senha.</a>
+
+          <button class="c-bnt">Entrar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="l-footer">
+      <p class="c-text__phrase--footer">2022 - Desenvolvido por Alura.</p>
+    </footer>
+  </body>
+</html>

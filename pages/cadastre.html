@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adopet - Cadastro</title>
+    <link rel="icon" type="image/svg" href="../assets/img/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body class="l-body l-body--cadastre-login">
+    <header class="l-header">
+      <nav class="c-main-nav">
+        <ul class="c-main-nav__list">
+          <li class="c-main-nav__item">
+            <a href="../index.html">
+              <img src="../assets/img/white-logo.svg" alt="Adopet" class="c-logo--nav" />
+            </a>
+          </li>
+
+          <li class="c-main-nav__item">
+            <a href="../index.html"><img src="../assets/img/icon-home.svg" alt="icone casa" /></a>
+          </li>
+
+          <li class="c-main-nav__item">
+            <a href="message.html">
+              <img src="../assets/img/icon-message.svg" alt="icone mensagem"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="l-content--cadastre">
+        <img class="c-logo" src="../assets/img/blue-logo.svg" alt="Logo Adopet" />
+        <p class="c-text__phrase--cadastre-login">
+          <span class="c-text__phrase__span--cadastre">Ainda não tem cadastro?</span>Então, antes de
+          buscar seu melhor amigo, precisamos de alguns dados:
+        </p>
+
+        <form class="c-form">
+          <label class="c-form__label" for="email"
+            >Email<input
+              id="email"
+              class="c-form__input"
+              placeholder="Escolha seu melhor email"
+              type="email"
+          /></label>
+
+          <label class="c-form__label" for="name"
+            >Nome<input
+              id="name"
+              class="c-form__input"
+              placeholder="Digite seu nome completo"
+              type="text"
+          /></label>
+
+          <label class="c-form__label--password" for="password">Senha</label>
+          <div class="c-form__div">
+            <input
+              id="password"
+              class="c-form__input--password"
+              placeholder="Crie uma senha"
+              type="password"
+            />
+            <button class="c-form__eye">
+              <img
+                class="c-icon--eye"
+                src="../assets/img/closed-eye.svg"
+                alt="Visualizador de Senha"
+              />
+            </button>
+          </div>
+
+          <label class="c-form__label" for="password-confirm">Confirma sua senha</label>
+          <div class="c-form__div">
+            <input
+              id="password-confirm"
+              class="c-form__input--password"
+              placeholder="Repita a senha criada acima"
+              type="password"
+            />
+            <button class="c-form__eye">
+              <img
+                class="c-icon--eye"
+                src="../assets/img/closed-eye.svg"
+                alt="Visualizador de Senha"
+              />
+            </button>
+          </div>
+
+          <button class="c-bnt">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="l-footer">
+      <p class="c-text__phrase--footer">2022 - Desenvolvido por Alura.</p>
+    </footer>
+  </body>
+</html>
